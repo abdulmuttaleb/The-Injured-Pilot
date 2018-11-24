@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 117557277}
   - component: {fileID: 117557276}
   m_Layer: 0
-  m_Name: GameEngine
+  m_Name: Game Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 747168845}
-  startingState: {fileID: 11400000, guid: 124c9434bce26754b8de38cfc7b2bc41, type: 2}
+  startingState: {fileID: 11400000, guid: 5c36d11e078b5c94982699e45438a793, type: 2}
 --- !u!4 &117557277
 Transform:
   m_ObjectHideFlags: 0
