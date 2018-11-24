@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720c7346f58f02a46af8aaaffc631324, type: 3}
+  m_Name: A6. Dark Room
+  m_EditorClassIdentifier: 
+  storyText: "Right, well, that took far longer than anticipated but the lock is off
+    and the door opened. Thank goodness for the Pumping Station being so loud. \r\n\r\nYou're
+    in a dark room. You hear people yelling over the top of the combustion boilers.
+    You catch some words. THUNK, THUNK, \"shut off the valves...\", THUNK THUNK, \"...get
+    out in time?\", THUNK THUNK, \"...massive pressure\", THUNK THUNK \"...for glory\"...
+    THUNK THUNK...\r\n\r\nWhat next, Adventurer?\r\n\r\n1. Get closer to the people
+    speaking.\r\n2. Ignore them, keep pushing for the airship."
+  nextStates:
+  - {fileID: 11400000, guid: 9d451734936d8084cb64330441bc5cde, type: 2}
+  - {fileID: 11400000, guid: f7a891ea01098fb478d5093e61fb009c, type: 2}
