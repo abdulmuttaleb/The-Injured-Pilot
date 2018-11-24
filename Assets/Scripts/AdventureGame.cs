@@ -6,9 +6,14 @@ using UnityEngine.UI;
 public class AdventureGame : MonoBehaviour {
 
     [SerializeField] Text textComponent;
+    [SerializeField] State startingState;
+
+    State state;
+
     void Start () {
-        textComponent.text = "I am a String!";
-	}
+        state = startingState;
+        textComponent.text = state.GetStateStory();
+    }
 	
 	// Update is called once per frame
 	void Update () {
